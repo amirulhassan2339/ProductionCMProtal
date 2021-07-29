@@ -32,7 +32,7 @@ Feature: Care Plan - Approved Using Save Button
 
 		Examples: 
 			| Patient          | Title           | New Status | Draft Status | Approved Status | SucessMessage                           |
-			| BABCOX, MICHAEL | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
+			| Robet, Jhon | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
     #Examples: 
       #| Patient          | Title           | New Status | Draft Status | Approved Status | Patient_Name     | MRN                | DOB             | LOB                 | Enterprise | SucessMessage                           |
       #| Dermo505, Mac505 | ApprovedPatient | New        | Draft        | Approved        | Dermo505, Mac505 | MRN  EntMerging505 | DOB  09/07/1905 | LOB  Non-Attributed | MHPN       | successCare Plan Saved SuccessfullyHide |

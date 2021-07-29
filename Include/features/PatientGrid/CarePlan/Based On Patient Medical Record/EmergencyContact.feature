@@ -26,4 +26,4 @@ Feature: Care Plan - Add Emergency Contact
 
     Examples: 
       | Patient          | Title                 | LastName   | FirstName | HomePhone    | MobilePhone | SucessMessage                           |
-      | BABCOX, MICHAEL | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |

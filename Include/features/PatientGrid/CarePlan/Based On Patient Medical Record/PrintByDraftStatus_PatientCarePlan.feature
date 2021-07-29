@@ -24,4 +24,4 @@ Feature: Care Plan - Print On Draft Status-PatientCarePlan
 
     Examples: 
       | Patient          | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |

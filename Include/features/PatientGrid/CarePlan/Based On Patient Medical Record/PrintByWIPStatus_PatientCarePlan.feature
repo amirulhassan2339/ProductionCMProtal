@@ -22,4 +22,4 @@ Feature: Care Plan - Print On WIP Status-PatientCarePlan
 
     Examples: 
       | Patient          | Title      | New Status | WIP Status | SucessMessage                           |
-      | BABCOX, MICHAEL| WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon| WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |

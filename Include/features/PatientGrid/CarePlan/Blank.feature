@@ -18,7 +18,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title          | SucessMessage                           |
-      | BABCOX, MICHAEL | TestingPatient | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | TestingPatient | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ApprovedSaveBtn_Blank
   Scenario Outline: Verify Approve Status Function Using Save Button
@@ -46,7 +46,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Approved Status | SucessMessage                           |
-      | BABCOX, MICHAEL | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ApprovedSaveCloseBtn_Blank
   Scenario Outline: Verify Approve Status Function Using Save & Close Button
@@ -75,7 +75,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Approved Status | SucessMessage                           |
-      | BABCOX, MICHAEL | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
 
    
   @SmokeUSMM_DraftSaveBtn_Blank
@@ -97,7 +97,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_DraftSaveCloseBtn_Blank
   Scenario Outline: Verify draft status function using save & close button
@@ -119,7 +119,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_WIPSaveBtn_Blank
   Scenario Outline: Verify WIP status function using save button
@@ -142,7 +142,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_WIPSaveCloseBtn_Blank
   Scenario Outline: Verify WIP status function using save & close button
@@ -163,7 +163,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_RejectedSaveBtn_Blank
   Scenario Outline: Verify reject status function using save button
@@ -192,7 +192,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Rejected Status | SucessMessage                           |
-      | BABCOX, MICHAEL | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_RejectedSaveCloseBtn_Blank
   Scenario Outline: Verify reject status function using save & close button
@@ -221,7 +221,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Rejected Status | SucessMessage                           |
-      | BABCOX, MICHAEL | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ExportWhileWIP_Blank
   Scenario Outline: Verify Export function while WIP status
@@ -241,7 +241,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ExportWhileDraft_Blank
   Scenario Outline: Verify export function while draft status
@@ -263,7 +263,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Patient_WIP_Blank
   Scenario Outline: Verify Print Button Using Patient Care Plan While WIP Status
@@ -284,7 +284,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Provide_WIP_Blank
   Scenario Outline: Verify Print Button Using Provide Care Plan While WIP Status
@@ -305,7 +305,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Patient_Draft_Blank
   Scenario Outline: Verify Print Button Using Patient Care Plan While Draft Status
@@ -328,7 +328,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Provide_Draft_Blank
   Scenario Outline: Verify Print Button Using Provide Care Plan While Draft Status
@@ -351,7 +351,7 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_EmergencyContact_Blank
   Scenario Outline: Add New Emergency Contact While Show & Hide multiple Components
@@ -376,4 +376,4 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title                 | LastName   | FirstName | HomePhone    | MobilePhone | SucessMessage                           |
-      | BABCOX, MICHAEL | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |

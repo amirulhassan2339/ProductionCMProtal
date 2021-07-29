@@ -22,7 +22,7 @@ Feature: From Previous Care Plan - Based On patient Medical Record
     
     Examples: 
       | Patient          | Title           |SucessMessage                           |
-      | BABCOX, MICHAEL | PreviousPatient |successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | PreviousPatient |successCare Plan Saved SuccessfullyHide |
 
 @SmokeUSMM_PreviousCP_Blank
   Scenario Outline: Verify Previous Care Plan - Blank
@@ -42,4 +42,4 @@ Feature: From Previous Care Plan - Based On patient Medical Record
 
     Examples: 
       | Patient          | Title           |SucessMessage                           |
-      | BABCOX, MICHAEL | PreviousPatient |successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | PreviousPatient |successCare Plan Saved SuccessfullyHide |

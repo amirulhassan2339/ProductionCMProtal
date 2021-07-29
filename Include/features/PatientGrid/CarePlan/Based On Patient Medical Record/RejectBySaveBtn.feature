@@ -31,4 +31,4 @@ Feature: Care Plan - Reject Status Using Save Button
 
     Examples: 
       | Patient          | Title           | New Status | Draft Status | Rejected Status | SucessMessage                           |
-      | BABCOX, MICHAEL | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |

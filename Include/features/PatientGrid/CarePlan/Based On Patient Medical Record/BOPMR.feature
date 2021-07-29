@@ -17,6 +17,6 @@ Feature: Care Plan - BOPMR
 
     Examples: 
       | Patient          | Title          | SucessMessage                           |
-      | BABCOX, MICHAEL | TestingPatient | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | TestingPatient | successCare Plan Saved SuccessfullyHide |
       
    

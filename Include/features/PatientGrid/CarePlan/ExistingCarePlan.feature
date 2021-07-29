@@ -12,7 +12,7 @@ Feature: Existing Care Plan
 
     Examples: 
       | Patient          | ExistingCarePlan |
-      | BABCOX, MICHAEL | TestApproved     |
+      | Robet, Jhon | TestApproved     |
 @SmokeUSMM_ExistingDraft
   Scenario Outline: Verify Existing Draft Care Plan
     When I search <Patient> using global search
@@ -22,7 +22,7 @@ Feature: Existing Care Plan
 
     Examples: 
       | Patient          | ExistingCarePlan |
-      | BABCOX, MICHAEL | TestDraft        |
+      | Robet, Jhon | TestDraft        |
 
 @SmokeUSMM_ExistingRejected
   Scenario Outline: Verify Existing  Rejected Care Plan
@@ -33,7 +33,7 @@ Feature: Existing Care Plan
 
     Examples: 
       | Patient          | ExistingCarePlan |
-      | BABCOX, MICHAEL | TestRejected     |
+      | Robet, Jhon | TestRejected     |
 @SmokeUSMM_ExistingWIP
   Scenario Outline: Verify Existing WIP Care Plan
     When I search <Patient> using global search
@@ -43,4 +43,4 @@ Feature: Existing Care Plan
 
     Examples: 
       | Patient          | ExistingCarePlan |
-      | BABCOX, MICHAEL | TestWIP          |
+      | Robet, Jhon | TestWIP          |

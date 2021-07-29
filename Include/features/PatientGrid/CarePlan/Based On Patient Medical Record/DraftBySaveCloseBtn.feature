@@ -23,4 +23,4 @@ Feature: Care Plan - Draft Status Using SaveClose Button
 
     Examples: 
       | Patient          | Title        | New Status | Draft Status | SucessMessage                           |
-      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | Robet, Jhon | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |

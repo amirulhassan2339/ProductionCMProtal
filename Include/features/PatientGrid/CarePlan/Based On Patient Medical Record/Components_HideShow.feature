@@ -24,7 +24,7 @@ Feature: Care Plan - Components Hide Show
     Examples:
     
     |Patient|
-    |BABCOX, MICHAEL|
+    |Robet, Jhon|
     
     #Examples: 
       #| Patient          | Patient_Name     | MRN                | DOB             | LOB                 | Enterprise | SucessMessage                           |
