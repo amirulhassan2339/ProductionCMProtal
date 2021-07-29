@@ -30,7 +30,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient          | Reason    | ThePatientUnderstands                                                             |                       
-      | BABCOX, MICHAEL | Back pain | I am not assuming any responsibility for their care of providing direct treatment |
+      | Robet, Jhon | Back pain | I am not assuming any responsibility for their care of providing direct treatment |
   
   
   Scenario: Verify deleting Scheduled Appointment

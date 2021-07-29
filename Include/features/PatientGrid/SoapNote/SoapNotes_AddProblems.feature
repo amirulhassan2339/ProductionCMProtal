@@ -19,7 +19,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient          | Reason    |
-      | BABCOX, MICHAEL | Back pain |
+      | Robet, Jhon | Back pain |
 
   @Smoke_USMM_CreatingProblems
 
@@ -47,7 +47,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | ProblemsCode      | Problems_Start_Date | Patient          |
-      | diabetes mellitus |            04162021 |BABCOX, MICHAEL|
+      | diabetes mellitus |            04162021 |Robet, Jhon|
       
 
 

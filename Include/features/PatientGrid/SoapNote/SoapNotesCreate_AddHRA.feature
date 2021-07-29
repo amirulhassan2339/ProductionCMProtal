@@ -18,8 +18,8 @@ Feature: Soap Note Creation from Schedule flow
     Then I should see appointment success message
 
     Examples: 
-      | Patient          | Reason    |
-      | BABCOX, MICHAEL | Back pain |
+      | Patient     | Reason    |
+      | Robet, Jhon | Back pain |
 
   @Smoke_USMM_VerifyPatientData
   Scenario Outline: Verify That Patient Data Are Showing
@@ -32,8 +32,8 @@ Feature: Soap Note Creation from Schedule flow
     Then I should see <Patient> as patient
 
     Examples: 
-      | Patient          |
-      | BABCOX, MICHAEL |
+      | Patient     |
+      | Robet, Jhon |
 
   @Smoke_USMM_HRATabsVerifications
   Scenario Outline: Verify That While Clicking HRA - Three Tabs Are Showing
@@ -44,8 +44,10 @@ Feature: Soap Note Creation from Schedule flow
     Then I should see <Patient> as actual patient name
     When I click on add HRA plus button
     Then I should see HRA popup with all tabs
-      | Patient          |
-      | BABCOX, MICHAEL |
+
+    Examples: 
+      | Patient     |
+      | Robet, Jhon |
 
   @Smoke_USMM_CreateSN
   Scenario Outline: Verify Creating Soap Notes - Based On Patient's Medical Record

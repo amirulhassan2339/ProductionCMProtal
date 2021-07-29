@@ -34,4 +34,4 @@ Feature: Care Plan - Notes - Forms
 
     Examples: 
       | Patient          | DateTime          | AprimaID | ReferralSourceDate | ReferralName | LastSeenByVPAProvider | AdmissionDate | Facility | EstimatedLOS | DischargeDate | ActualLOS | Comments                                                                   |
-      | BABCOX, MICHAEL | 03152021 03:20 AM |      122 |           12022020 | Ali          | 12022020         |      12202021 | MHPN     |           10 |      15092020 |        15 | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |
+      | Robet, Jhon | 03152021 03:20 AM |      122 |           12022020 | Ali          | 12022020         |      12202021 | MHPN     |           10 |      15092020 |        15 | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |

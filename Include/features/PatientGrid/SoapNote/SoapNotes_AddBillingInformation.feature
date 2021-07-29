@@ -19,7 +19,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient          | Reason    |
-      | BABCOX, MICHAEL | Back pain |
+      | Robet, Jhon | Back pain |
 
 
 @Smoke_USMM_CreateBillingInformation
@@ -47,7 +47,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | BillingInformation |Patient|
-      |              99203 |BABCOX, MICHAEL|
+      |              99203 |Robet, Jhon|
 
   Scenario: Verify deleting Scheduled Appointment
     When I click on schedule tab

@@ -18,7 +18,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient   | Reason    |
-      | BABCOX, MICHAEL | Back pain |
+      | Robet, Jhon | Back pain |
 
   @Smoke_USMM_CreateMedications
   Scenario Outline: Verify Creating Medication - Based On Patient's Medical Record
@@ -40,7 +40,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | MedicationCode | Medication_Route | Medication_Start_Date | Medication_Reason       | Medication_DispensedQuantity  | Patient   |
-      | Lipitor Oral   | buccal           |              04162021 | burns of multiple sites |                            2   | BABCOX, MICHAEL |
+      | Lipitor Oral   | buccal           |              04162021 | burns of multiple sites |                            2   | Robet, Jhon |
 
   Scenario: Verify deleting Scheduled Appointment
     When I click on schedule tab
