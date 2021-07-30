@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='careType_listbox']/li[contains(text(), 'VPA-Behavioral-Health-Social-Work')]</value>
+         <value>//ul[@id='careType_listbox']/li[contains(text(), 'CCM')]</value>
       </entry>
       <entry>
          <key>CSS</key>
