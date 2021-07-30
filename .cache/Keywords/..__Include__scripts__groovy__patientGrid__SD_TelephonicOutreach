@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "9D5E9C5DFC4A12370F8426652C1407F2",
+  "keywordFileContentHash": "F878B684C098C5B5271CF9684EB0B15B",
   "keywordClasses": [
     {
       "name": "patientGrid.SD_TelephonicOutreach",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

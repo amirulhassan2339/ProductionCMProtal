@@ -6,16 +6,16 @@
    <elementGuidId>3d9adc35-b90c-4590-89c0-a8e89cfa119e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@role = 'option' and @unselectable = 'on' and @data-offset-index = '0' and @aria-selected = 'true' and (text() = 'Poineer practice' or . = 'Poineer practice') and @ref_element = 'Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/Forms/TelephonicOutreach/Page_Welcome to Persivia/iframe_SignOut_appCCM']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//li[contains(text(), 'Telehealth Test')])</value>
+         <value>(//li[contains(text(), 'Support Test Ent')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#3bcd5911-733d-46e5-89e8-9c71fac27b81</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'option' and @unselectable = 'on' and @data-offset-index = '0' and @aria-selected = 'true' and (text() = 'Poineer practice' or . = 'Poineer practice') and @ref_element = 'Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/Forms/TelephonicOutreach/Page_Welcome to Persivia/iframe_SignOut_appCCM']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
