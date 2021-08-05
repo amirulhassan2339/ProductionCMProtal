@@ -1,19 +1,20 @@
 @LeftFilters
 Feature: Left Filters
 
-	Background: 
-		Given I navigate to patient grid
+  Background: 
+    Given I navigate to patient grid
 
-	@Facility
-	Scenario Outline: Applying Facility Filters
-		 And I click on reset button
-		When I enter facility <Facility>
-		 And I click on apply button
-		Then I should see <Facility> as Facility
+  @Facility
+  Scenario Outline: Applying Facility Filters
+    And I click on reset button
+    When I enter facility <Facility>
+    And I click on apply button
+    Then I should see <Facility> as Facility
 
-		Examples: 
-			| Facility                                       |
-			| Support Test Ent |
+    Examples: 
+      | Facility         |
+      | Support Test Ent |
+
   @Program
   Scenario Outline: Applying Program Filters
     And I click on reset button
@@ -34,4 +35,4 @@ Feature: Left Filters
 
     Examples: 
       | Enrollment |
-      | Eligible     |
+      | Eligible   |
