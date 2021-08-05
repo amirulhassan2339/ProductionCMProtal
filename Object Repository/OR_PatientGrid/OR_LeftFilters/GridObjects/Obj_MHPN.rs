@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='patient-grid']//tr)[2]//td[16]//span[contains(text(), 'VPA Specialty Programs')]</value>
+         <value>(//div[@id='patient-grid']//tr)[2]//td[12]</value>
       </entry>
       <entry>
          <key>CSS</key>

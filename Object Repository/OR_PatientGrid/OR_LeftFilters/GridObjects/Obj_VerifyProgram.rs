@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='patient-grid']//tr)[2]//td[37]</value>
+         <value>(//div[@id='patient-grid']//tr)[2]//td[34]</value>
       </entry>
       <entry>
          <key>CSS</key>
