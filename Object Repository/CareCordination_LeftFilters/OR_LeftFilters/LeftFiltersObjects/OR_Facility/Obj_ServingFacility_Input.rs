@@ -6,12 +6,12 @@
    <elementGuidId>c114501f-a21a-4716-b182-fe7f9dcafa4c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[15]//input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.k-widget.k-multiselect.k-header.form-control.k-state-hover.k-state-focused.k-state-border-down > div.k-multiselect-wrap.k-floatwrap > input.k-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//form[@id='toc_filter_form']//div)[18]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

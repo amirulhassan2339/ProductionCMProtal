@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[58]</value>
+         <value>(//form[@id='toc_filter_form']//div)[56]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
