@@ -3,29 +3,29 @@ Feature: Supper Bill flows
 	Background: 
 		Given I navigate to patient grid With Supper Bill
 
-	@SmokeUSMM_SupperBill_DateRange
-	Scenario Outline: Verify that patient soap notes are shown on superbill UI in particular date range
-		When I click on Reset button to reset supper bill filters
-		 And I enter <DateOfService_FromDate> as date of service from date
-		   * I click on Apply button to apply supper bill filters
-		Then I should see particualar patient data in <DateOfService_FromDate> as selected date
-
-		Examples: 
-			| DateOfService_FromDate |
-			|               12052020 |
-
-	@SmokeUSMM_SupperBill_PracticeFacility
-	Scenario Outline: Verify that patients are filtered from left filter against specific practice facility
-		When I click on Reset button to reset supper bill filters
-		 And I enter <DateOfService_FromDate> as date of service from date
-		   * I enter <Practice> as practice
-		   * I click on Apply button to apply supper bill filters
-		   * I click on particular patient and expand
-		Then I should see <Practice> particualar patient practice facility
-
-		Examples: 
-			| DateOfService_FromDate | Practice               |
-			|               12012020 | VPA Specialty Programs |
+#	@SmokeUSMM_SupperBill_DateRange
+#	Scenario Outline: Verify that patient soap notes are shown on superbill UI in particular date range
+#		When I click on Reset button to reset supper bill filters
+#		 And I enter <DateOfService_FromDate> as date of service from date
+#		   * I click on Apply button to apply supper bill filters
+#		Then I should see particualar patient data in <DateOfService_FromDate> as selected date
+#
+#		Examples: 
+#			| DateOfService_FromDate |
+#			|               12052020 |
+#
+#	@SmokeUSMM_SupperBill_PracticeFacility
+#	Scenario Outline: Verify that patients are filtered from left filter against specific practice facility
+#		When I click on Reset button to reset supper bill filters
+#		 And I enter <DateOfService_FromDate> as date of service from date
+#		   * I enter <Practice> as practice
+#		   * I click on Apply button to apply supper bill filters
+#		   * I click on particular patient and expand
+#		Then I should see <Practice> particualar patient practice facility
+#
+#		Examples: 
+#			| DateOfService_FromDate | Practice               |
+#			|               12012020 | Support Test Ent |
 
 	@SmokeUSMM_SupperBill_Status_Signed
 	Scenario Outline: Verify that patients are filtered against the selected soap status signed

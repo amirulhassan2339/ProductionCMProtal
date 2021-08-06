@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'VPA Specialty Programs')]</value>
+         <value>//label[contains(text(),'Support Test Ent')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
