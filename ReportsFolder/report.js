@@ -1,6 +1,6 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/PatientGrid/SupperBll/SupperBill.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/PatientGrid/SoapNote/SoapNotesCreate_AddHRA.feature");
 formatter.feature({
-  "name": "Supper Bill flows",
+  "name": "Soap Note Creation from Schedule flow",
   "description": "",
   "keyword": "Feature"
 });
@@ -13,11 +13,11 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I navigate to patient grid With Supper Bill",
+  "name": "I navigate to patient grid",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "SD_PatientGrid_SupperBillTab.I_navigate_to_patient_grid_SupperBill()"
+  "location": "SD_PatientGrid.I_navigate_to_patient_grid()"
 });
 formatter.result({
   "status": "passed"
@@ -28,7 +28,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@SmokeUSMM_SupperBill_ScheduleAppointmentDelete"
+      "name": "@Smoke_USMM_DelateScheduleAppointment"
     }
   ]
 });

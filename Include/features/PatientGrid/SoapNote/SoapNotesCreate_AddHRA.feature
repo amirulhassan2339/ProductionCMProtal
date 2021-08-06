@@ -41,8 +41,7 @@ Feature: Soap Note Creation from Schedule flow
     Then I should see already scheduled appointment
     When I click on three dots
     * I click on edit soapnotes
-    Then I should see <Patient> as actual patient name
-    When I click on add HRA plus button
+    * I click on add HRA plus button
     Then I should see HRA popup with all tabs
 
     Examples: 

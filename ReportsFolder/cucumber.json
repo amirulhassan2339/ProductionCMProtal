@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5838255600,
+              "duration": 13322249400,
               "status": "passed"
             },
             "line": 4,
-            "name": "I navigate to patient grid With Supper Bill",
+            "name": "I navigate to patient grid",
             "match": {
-              "location": "SD_PatientGrid_SupperBillTab.I_navigate_to_patient_grid_SupperBill()"
+              "location": "SD_PatientGrid.I_navigate_to_patient_grid()"
             },
             "keyword": "Given "
           }
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 15007697900,
+              "duration": 14767918100,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 111,
+        "line": 93,
         "name": "Verify deleting Scheduled Appointment",
         "description": "",
-        "id": "supper-bill-flows;verify-deleting-scheduled-appointment",
+        "id": "soap-note-creation-from-schedule-flow;verify-deleting-scheduled-appointment",
         "after": [
           {
             "result": {
-              "duration": 8934330100,
+              "duration": 9073971600,
               "status": "passed"
             },
             "match": {
@@ -55,10 +55,10 @@
         "steps": [
           {
             "result": {
-              "duration": 19536872400,
+              "duration": 14914226400,
               "status": "passed"
             },
-            "line": 112,
+            "line": 94,
             "name": "I click on schedule tab",
             "match": {
               "location": "SD_SoapNotes.I_click_on_scheduletab()"
@@ -67,10 +67,10 @@
           },
           {
             "result": {
-              "duration": 768769100,
+              "duration": 746509100,
               "status": "passed"
             },
-            "line": 113,
+            "line": 95,
             "name": "I should see already scheduled appointment",
             "match": {
               "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
@@ -79,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 1777218100,
+              "duration": 1806869800,
               "status": "passed"
             },
-            "line": 114,
+            "line": 96,
             "name": "I click on three dots",
             "match": {
               "location": "SD_SoapNotes.I_Click_Three_Dots()"
@@ -91,10 +91,10 @@
           },
           {
             "result": {
-              "duration": 1818342100,
+              "duration": 1570260700,
               "status": "passed"
             },
-            "line": 115,
+            "line": 97,
             "name": "I click on delete appointment",
             "match": {
               "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
@@ -103,10 +103,10 @@
           },
           {
             "result": {
-              "duration": 832342400,
+              "duration": 869249800,
               "status": "passed"
             },
-            "line": 116,
+            "line": 98,
             "name": "I should see delete appointment message",
             "match": {
               "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
@@ -116,16 +116,16 @@
         ],
         "tags": [
           {
-            "name": "@SmokeUSMM_SupperBill_ScheduleAppointmentDelete"
+            "name": "@Smoke_USMM_DelateScheduleAppointment"
           }
         ]
       }
     ],
-    "name": "Supper Bill flows",
+    "name": "Soap Note Creation from Schedule flow",
     "description": "",
-    "id": "supper-bill-flows",
+    "id": "soap-note-creation-from-schedule-flow",
     "keyword": "Feature",
-    "uri": "Include/features/PatientGrid/SupperBll/SupperBill.feature",
+    "uri": "Include/features/PatientGrid/SoapNote/SoapNotesCreate_AddHRA.feature",
     "tags": []
   }
 ]
