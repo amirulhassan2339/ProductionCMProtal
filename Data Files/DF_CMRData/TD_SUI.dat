@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9b5456b6-9b94-4c78-8495-3df2e6340c1f</dataFileGUID>
-   <dataSourceUrl>C:\Users\hafiz.amir\Desktop\SUI.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\Hafiz.Amir\Desktop\SUI.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

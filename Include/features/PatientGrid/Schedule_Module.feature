@@ -30,7 +30,7 @@ Feature: Scheduled Left Filters flow
 
     Examples: 
       | VisitType  |
-      | Telehealth |
+      | tested |
 
 @SmokeUSMM_VerifyProviderFilter
   Scenario Outline: Verify Appoitnment Provider Filters
