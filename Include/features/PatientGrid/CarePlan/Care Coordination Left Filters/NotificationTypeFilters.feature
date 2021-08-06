@@ -1,7 +1,8 @@
 Feature: Care Cordination Left Filters
 
 	Background: 
-		Given I navigate to patient grid Care Coordination
+		#Given I navigate to patient grid Care Coordination
+		Given I navigate to patient grid
 
 	Scenario Outline: Applying Notification Type Filter
 		When I click on care cordination
