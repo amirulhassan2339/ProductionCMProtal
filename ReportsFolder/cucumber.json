@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13322249400,
+              "duration": 13404832900,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 14767918100,
+              "duration": 14720792400,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 93,
+        "line": 92,
         "name": "Verify deleting Scheduled Appointment",
         "description": "",
         "id": "soap-note-creation-from-schedule-flow;verify-deleting-scheduled-appointment",
         "after": [
           {
             "result": {
-              "duration": 9073971600,
+              "duration": 8981098900,
               "status": "passed"
             },
             "match": {
@@ -55,10 +55,10 @@
         "steps": [
           {
             "result": {
-              "duration": 14914226400,
+              "duration": 14554909300,
               "status": "passed"
             },
-            "line": 94,
+            "line": 93,
             "name": "I click on schedule tab",
             "match": {
               "location": "SD_SoapNotes.I_click_on_scheduletab()"
@@ -67,10 +67,10 @@
           },
           {
             "result": {
-              "duration": 746509100,
+              "duration": 875275700,
               "status": "passed"
             },
-            "line": 95,
+            "line": 94,
             "name": "I should see already scheduled appointment",
             "match": {
               "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
@@ -79,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 1806869800,
+              "duration": 1816511600,
               "status": "passed"
             },
-            "line": 96,
+            "line": 95,
             "name": "I click on three dots",
             "match": {
               "location": "SD_SoapNotes.I_Click_Three_Dots()"
@@ -91,10 +91,10 @@
           },
           {
             "result": {
-              "duration": 1570260700,
+              "duration": 1366646900,
               "status": "passed"
             },
-            "line": 97,
+            "line": 96,
             "name": "I click on delete appointment",
             "match": {
               "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
@@ -103,10 +103,10 @@
           },
           {
             "result": {
-              "duration": 869249800,
+              "duration": 812686100,
               "status": "passed"
             },
-            "line": 98,
+            "line": 97,
             "name": "I should see delete appointment message",
             "match": {
               "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
