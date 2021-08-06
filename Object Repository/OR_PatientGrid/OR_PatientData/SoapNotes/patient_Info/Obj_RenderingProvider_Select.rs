@@ -6,12 +6,12 @@
    <elementGuidId>d2167e34-301d-4692-b80d-58fde81f6e5d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='soapRenderProvider-list']/div[3]/ul/li[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#carePlanPatientInfoDiv_550910 > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='soapRenderProvider-list']/div[3]/ul/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

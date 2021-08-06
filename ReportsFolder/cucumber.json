@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5838255600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to patient grid With Supper Bill",
+            "match": {
+              "location": "SD_PatientGrid_SupperBillTab.I_navigate_to_patient_grid_SupperBill()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15007697900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SD_Login.Browser()"
+            }
+          }
+        ],
+        "line": 111,
+        "name": "Verify deleting Scheduled Appointment",
+        "description": "",
+        "id": "supper-bill-flows;verify-deleting-scheduled-appointment",
+        "after": [
+          {
+            "result": {
+              "duration": 8934330100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SD_Login.Logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19536872400,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I click on schedule tab",
+            "match": {
+              "location": "SD_SoapNotes.I_click_on_scheduletab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 768769100,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I should see already scheduled appointment",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1777218100,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I click on three dots",
+            "match": {
+              "location": "SD_SoapNotes.I_Click_Three_Dots()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1818342100,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I click on delete appointment",
+            "match": {
+              "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 832342400,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I should see delete appointment message",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeUSMM_SupperBill_ScheduleAppointmentDelete"
+          }
+        ]
+      }
+    ],
+    "name": "Supper Bill flows",
+    "description": "",
+    "id": "supper-bill-flows",
+    "keyword": "Feature",
+    "uri": "Include/features/PatientGrid/SupperBll/SupperBill.feature",
+    "tags": []
+  }
+]
