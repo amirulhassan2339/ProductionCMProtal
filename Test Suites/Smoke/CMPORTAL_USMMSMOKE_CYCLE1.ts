@@ -284,7 +284,7 @@
    <testCaseLink>
       <guid>41b7364e-3429-4c28-bbd4-6082cc205adf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CucumberRunners/Care Coordination Left Filters/TC_LOBFilters</testCaseId>
    </testCaseLink>
    <testCaseLink>
