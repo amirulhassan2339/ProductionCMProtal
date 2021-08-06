@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id=&quot;toc_filter_program_listbox&quot;]/li[1]</value>
+         <value>//ul[@id=&quot;toc_filter_program_listbox&quot;]/li[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

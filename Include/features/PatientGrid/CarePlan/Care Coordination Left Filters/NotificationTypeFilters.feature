@@ -15,4 +15,4 @@ Feature: Care Cordination Left Filters
 
 		Examples: 
 			| NotificationType |
-			| Presenting       |
+			| Admitted       |

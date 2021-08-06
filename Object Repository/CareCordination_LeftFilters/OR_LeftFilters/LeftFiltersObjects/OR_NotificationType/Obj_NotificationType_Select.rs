@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id=&quot;toc_filter_notification_listbox&quot;]/li[1]</value>
+         <value>//ul[@id=&quot;toc_filter_notification_listbox&quot;]/li[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

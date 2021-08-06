@@ -19,4 +19,4 @@ Feature: Care Cordination Left Filters
 
   Examples:
   |EncProgram|
-  |TCM|
+  |CJR|
