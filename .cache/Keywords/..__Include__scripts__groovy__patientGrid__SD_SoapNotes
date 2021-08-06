@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "367FAF7BCB22962F3D89AEE60BEA2388",
+  "keywordFileContentHash": "94B4C2BE59DBC076DE1742CF657B6713",
   "keywordClasses": [
     {
       "name": "patientGrid.SD_SoapNotes",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
