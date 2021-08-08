@@ -59,7 +59,7 @@ public class SD_PatientGrid {
 
 
 
-		Thread.sleep(4000)
+		Thread.sleep(2000)
 		WebUI.click(findTestObject('OR_Alert/Obj_Hide'))
 		WebUI.getUrl()
 

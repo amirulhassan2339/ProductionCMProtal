@@ -78,7 +78,7 @@ class SD_CareCordination_LeftFilters {
 
 		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_buttonApply'))
 
-		Thread.sleep(5000)
+		Thread.sleep(8000)
 	}
 
 
