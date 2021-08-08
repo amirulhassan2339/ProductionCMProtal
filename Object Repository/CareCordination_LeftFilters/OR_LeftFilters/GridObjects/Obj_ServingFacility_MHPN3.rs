@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='tocGrid']//table)[2]//tr[1]//td[11]</value>
+         <value>(//div[@id='tocGrid']//table)[2]//tr[1]//td[12]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

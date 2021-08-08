@@ -4,6 +4,57 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
+formatter.scenarioOutline({
+  "name": "Verify That While Clicking HRA - Three Tabs Are Showing",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Smoke_USMM_HRATabsVerifications"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click on schedule tab",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should see already scheduled appointment",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I click on three dots",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I click on edit soapnotes",
+  "keyword": "* "
+});
+formatter.step({
+  "name": "I click on add HRA plus button",
+  "keyword": "* "
+});
+formatter.step({
+  "name": "I should see HRA popup with all tabs",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "Patient"
+      ]
+    },
+    {
+      "cells": [
+        "Robet, Jhon"
+      ]
+    }
+  ]
+});
 formatter.background({
   "name": "",
   "description": "",
@@ -23,12 +74,12 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify deleting Scheduled Appointment",
+  "name": "Verify That While Clicking HRA - Three Tabs Are Showing",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@Smoke_USMM_DelateScheduleAppointment"
+      "name": "@Smoke_USMM_HRATabsVerifications"
     }
   ]
 });
@@ -38,51 +89,4 @@ formatter.step({
 });
 formatter.match({
   "location": "SD_SoapNotes.I_click_on_scheduletab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should see already scheduled appointment",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on three dots",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "SD_SoapNotes.I_Click_Three_Dots()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on delete appointment",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should see delete appointment message",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
 });

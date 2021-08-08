@@ -35,4 +35,4 @@ Feature: Left Filters
 
     Examples: 
       | Enrollment |
-      | Eligible   |
+      | Non-Attributed   |
