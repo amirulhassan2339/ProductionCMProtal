@@ -55,7 +55,7 @@ class SD_LeftFilters {
 
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonApply'))
-		Thread.sleep(8000)
+		Thread.sleep(12000)
 	}
 
 

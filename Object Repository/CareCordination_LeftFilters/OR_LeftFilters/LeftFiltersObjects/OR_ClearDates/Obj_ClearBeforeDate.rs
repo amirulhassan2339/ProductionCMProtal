@@ -10,8 +10,12 @@
          <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Allselect' or . = 'Allselect') and @ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[69]//input</value>
+         <value>(//form[@id='toc_filter_form']//div)[70]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

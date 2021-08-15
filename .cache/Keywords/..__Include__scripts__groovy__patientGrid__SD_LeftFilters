@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "7793C0034F9592B37D0A14C624DC3FCE",
+  "keywordFileContentHash": "3130E0F7190F2C854708B0CA00EBDB13",
   "keywordClasses": [
     {
       "name": "patientGrid.SD_LeftFilters",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
