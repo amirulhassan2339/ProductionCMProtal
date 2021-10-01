@@ -65,14 +65,14 @@ class SD_BOPMR {
 	@Then("I am on PWB with (.*)")
 	public void I_am_on_PWB(String Patient) {
 
-		//WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'),3)		
-		
+		//WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'),3)
+
 		String ActualName = WebUI.getText(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'))
 		WebUI.verifyEqual(ActualName, Patient)
-		
-		
-		
-		
+
+
+
+
 	}
 
 	@And("I click on care plan tab")
@@ -217,6 +217,19 @@ class SD_BOPMR {
 		WebUI.setText(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGridInput/Input'), Title)
 	}
 
+	@And("I enter the (.*) as the assessmenttitle")
+	public void I_enter_assessmenttitle(String AssesmentTitle) {
+
+
+		WebUI.clearText(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Assessment/OR_Assessment/Obj_input_title'))
+
+		Thread.sleep(1000)
+
+		WebUI.setText(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Assessment/OR_Assessment/Obj_input_title'),
+				AssesmentTitle)
+		Thread.sleep(2000)
+	}
+	
 	@And("I click on save and close button")
 	public void click_On_SaveClose_Button() {
 
@@ -863,7 +876,7 @@ class SD_BOPMR {
 
 		WebUI.scrollToElement(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/ComponentSetting/Component_Validation/AssessmentSelection/Obj_Decline'), 1)
 
-		
+
 		String Actual_Answer = WebUI.getText(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/ComponentSetting/Component_Validation/AssessmentSelection/Obj_Decline'))
 		WebUI.verifyEqual(Actual_Answer, 'Review concepts and goals of chronic case management program.')
 

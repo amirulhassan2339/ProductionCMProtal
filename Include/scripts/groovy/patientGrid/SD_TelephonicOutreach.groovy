@@ -122,7 +122,15 @@ public class SD_TelephonicOutreach {
 
 		WebUI.sendKeys(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/Forms/TelephonicOutreach/Obj_FollowUpPlan_Input'), Keys.chord(Keys.ENTER))
 	}
+	
+	@And("I enter telephonic outreach (.*) as follow up planss")
+	public void I_enter_as_followupPlanss(String Follow_Up_Plan) {
 
+		
+		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/PatientTimer/Obj_CacelBTN_outreachNotes'))
+
+
+	}
 
 	@And("I select Has patient gone to ER since placed on TOR within last thirty days?")
 	public void I_select_HasPatientGoneER() {
